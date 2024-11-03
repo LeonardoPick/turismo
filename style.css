@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+
+  color: #333;
+}
+nav {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  padding: 20px 0;
+}
+nav a {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding-right: 34px;
+}
+
+#vizualizar {
+  width: 100vw;
+  margin-top: 0;
+}
+#buscas,
+ul {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  list-style: none; /* Remove os marcadores */
+  padding: auto auto;
+}
+.icon {
+  font-size: 20px;
+}
+div a {
+  display: inline;
+  margin: 6px 6px 20px 0;
+  border: #333 solid 1px;
+  border-radius: 12px;
+  height: 50px;
+  width: 135px;
+  font-size: 11px;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  padding-left: 0;
+}
+
+main {
+  box-sizing: border-box;
+  width: 60%;
+  margin: auto;
+
+  padding: 10px 40px;
+}
+h1 {
+  font-size: 26px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: justify;
+}
+img {
+  width: 800px;
+  border-radius: 4px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  color: #676558;
+  text-align: center;
+  padding-bottom: 30px;
+}
